@@ -31,7 +31,7 @@ to prevent malicious access, as it currently stores your base64 user pass in the
 <Publish>
 <Port>
 <HostPort>3005</HostPort>
-<ContainerPort>3005</ContainerPort>
+<ContainerPort>80</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
