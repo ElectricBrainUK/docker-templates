@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Unraid-API</Name>
+<Beta>True</Beta>
+<Changes>
+[center][img width='300px' src=''][/center]
+
+[center][font size=5]Unraid Change Log[/font][/center]
+[font size=4][/font]
+0.4 Add Pci info but no controls yet
+0.3 Add USB controls
+0.2 Add VM details
+0.1 Start with VM controls
+</Changes>
+<Category>Other:</Category>
+<Overview>Unraid API</Overview>
+<Support>williambuswellcampbell@gmail.com</Support>
+<Description>This is very early stages that I have been working on in my spare time. 
+There are lots of problems and shortfalls but the plan is to build this out to the point where
+multiple servers could be controlled and automated. Moving USBs and devices between VMs, making other edits, 
+and creating and destroying VMs are the priorities for now. 
+
+I also plan on moving authetication to the request 
+to prevent malicious access, as it currently stores your base64 user pass in the config file, it is only this way for convenience during development.</Description>
+<Registry>https://cloud.docker.com/repository/docker/willnnotdan/unraid-api</Registry>
+<Repository>willnnotdan/unraid-api</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>3005</HostPort>
+<ContainerPort>3005</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:3005]</WebUI>
+<Banner></Banner>
+<Icon></Icon>
+</Container>
