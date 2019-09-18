@@ -35,6 +35,10 @@
 <Name>WORDPRESS_DB_PASSWORD</Name>
 <Value>wordpress</Value>
 </Variable>
+<Variable>
+<Name>WORDPRESS_DB_NAME</Name>
+<Value>wordpress</Value>
+</Variable>
 </Environment>
 <Data>
 <Volume>
