@@ -7,6 +7,7 @@
 
 [center][font size=5]Unraid Change Log[/font][/center]
 [font size=4][/font]
+0.5 PCI controls working
 0.4 Add Pci info but no controls yet
 0.3 Add USB controls
 0.2 Add VM details
@@ -14,7 +15,7 @@
 </Changes>
 <Category>HomeAutomation: Tools:</Category>
 <Overview>Unraid API</Overview>
-<Support>williambuswellcampbell@gmail.com</Support>
+<Support>support@electricbrain.co.uk</Support>
 <Description>This is very early stages that I have been working on in my spare time. 
 There are lots of problems and shortfalls but the plan is to build this out to the point where
 multiple servers could be controlled and automated. Moving USBs and devices between VMs, making other edits, 
@@ -22,8 +23,8 @@ and creating and destroying VMs are the priorities for now.
 
 I also plan on moving authetication to the request 
 to prevent malicious access, as it currently stores your base64 user pass in the config file, it is only this way for convenience during development.</Description>
-<Registry>https://cloud.docker.com/repository/docker/willnnotdan/unraid-api</Registry>
-<Repository>willnnotdan/unraid-api</Repository>
+<Registry>https://cloud.docker.com/repository/docker/electricbrainuk/unraidapi</Registry>
+<Repository>electricbrainuk/unraidapi</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
@@ -44,7 +45,7 @@ to prevent malicious access, as it currently stores your base64 user pass in the
 </Environment>
 <Data>
 <Volume>
-<HostDir></HostDir>
+<HostDir>/mnt/user/appdata/Unraid-API</HostDir>
 <ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
