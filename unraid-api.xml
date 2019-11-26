@@ -63,7 +63,7 @@ to prevent malicious access, as it currently stores your base64 user pass in the
 <Data>
 <Volume>
 <HostDir>/mnt/user/appdata/Unraid-API</HostDir>
-<ContainerDir>/config</ContainerDir>
+<ContainerDir>/app/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
