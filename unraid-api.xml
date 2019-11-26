@@ -7,6 +7,7 @@
 
 [center][font size=5]Unraid Change Log[/font][/center]
 [font size=4][/font]
+0.6 Add MQTT and HA auto discovery
 0.5 PCI controls working
 0.4 Add Pci info but no controls yet
 0.3 Add USB controls
@@ -39,8 +40,24 @@ to prevent malicious access, as it currently stores your base64 user pass in the
 </Networking>
 <Environment>
 <Variable>
-<Name></Name>
-<Value></Value>
+<Name>MQTTBroker</Name>
+<Value>hassio</Value>
+</Variable>
+<Variable>
+<Name>MQTTPort</Name>
+<Value>1883</Value>
+</Variable>
+<Variable>
+<Name>MQTTUser</Name>
+<Value>mqtt</Value>
+</Variable>
+<Variable>
+<Name>MQTTPass</Name>
+<Value>pass</Value>
+</Variable>
+<Variable>
+<Name>MQTTBaseTopic</Name>
+<Value>homeassistant</Value>
 </Variable>
 </Environment>
 <Data>
@@ -53,4 +70,6 @@ to prevent malicious access, as it currently stores your base64 user pass in the
 <WebUI>http://[IP]:[PORT:3005]</WebUI>
 <Banner></Banner>
 <Icon></Icon>
+<DonateText>We develop all of our apps in our spare time so if you feel like supporting us please donate</DonateText>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9EC6MMLG7KLNA&source=url</DonateLink>
 </Container>
