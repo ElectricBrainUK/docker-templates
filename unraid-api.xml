@@ -64,6 +64,11 @@ to prevent malicious access, as it currently stores your base64 user pass in the
 <Value>homeassistant</Value>
 <Mode/>
 </Variable>
+<Variable>
+<Name>KeyStorage</Name>
+<Value>config</Value>
+<Mode/>
+</Variable>
 </Environment>
 <Data>
 <Volume>
