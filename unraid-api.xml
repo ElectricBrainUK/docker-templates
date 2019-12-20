@@ -16,7 +16,7 @@
 </Changes>
 <Category>HomeAutomation: Tools:</Category>
 <Overview>Unraid API</Overview>
-<Support>support@electricbrain.co.uk</Support>
+<Support>https://forums.unraid.net/topic/86354-support-electric-brain-unraid-api/</Support>
 <Description>This is very early stages that I have been working on in my spare time. 
 There are lots of problems and shortfalls but the plan is to build this out to the point where
 multiple servers could be controlled and automated. Moving USBs and devices between VMs, making other edits, 
@@ -81,5 +81,5 @@ to prevent malicious access, as it currently stores your base64 user pass in the
 <Banner></Banner>
 <Icon></Icon>
 <DonateText>We develop all of our apps in our spare time so if you feel like supporting us please donate</DonateText>
-<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=9EC6MMLG7KLNA&amp;source=url</DonateLink>
+<DonateLink>https://www.paypal.me/electricbrain</DonateLink>
 </Container>
