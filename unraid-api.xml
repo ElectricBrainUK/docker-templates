@@ -16,7 +16,11 @@
 </Changes>
 <Category>HomeAutomation: Tools:</Category>
 <Support>https://forums.unraid.net/topic/86354-support-electric-brain-unraid-api/</Support>
-<Overview>This is an MQTT Home Assistant Bridge with a rest endpoint as well that allows control of unraid from this docker, homeassistant and MQTT/REST generally.</Overview>
+<Overview>This is an MQTT Home Assistant Bridge with a rest endpoint as well that allows control of unraid from this docker, homeassistant and MQTT/REST generally.
+  
+  
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+</Overview>
 <Registry>https://cloud.docker.com/repository/docker/electricbrainuk/unraidapi</Registry>
 <Repository>electricbrainuk/unraidapi</Repository>
 <BindTime>true</BindTime>
@@ -72,7 +76,7 @@
 </Data>
 <WebUI>http://[IP]:[PORT:3005]</WebUI>
 <Banner></Banner>
-<Icon></Icon>
+<Icon>https://www.flaticon.com/free-icon/api_603197</Icon>
 <DonateText>We develop all of our apps in our spare time so if you feel like supporting us please donate</DonateText>
 <DonateLink>https://www.paypal.me/electricbrain</DonateLink>
 </Container>
