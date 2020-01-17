@@ -76,7 +76,7 @@ Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
 </Data>
 <WebUI>http://[IP]:[PORT:3005]</WebUI>
 <Banner></Banner>
-<Icon>https://image.flaticon.com/icons/svg/603/603197.svg</Icon>
+<Icon>https://raw.githubusercontent.com/ElectricBrainUK/UnraidAPI/master/static/icon.png</Icon>
 <DonateText>We develop all of our apps in our spare time so if you feel like supporting us please donate</DonateText>
 <DonateLink>https://www.paypal.me/electricbrain</DonateLink>
 </Container>
