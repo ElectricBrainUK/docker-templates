@@ -19,7 +19,7 @@
 <Overview>This is an MQTT Home Assistant Bridge with a rest endpoint as well that allows control of unraid from this docker, homeassistant and MQTT/REST generally.
   
   
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+Icon made by https://www.flaticon.com/authors/freepik Freepik
 </Overview>
 <Registry>https://cloud.docker.com/repository/docker/electricbrainuk/unraidapi</Registry>
 <Repository>electricbrainuk/unraidapi</Repository>
