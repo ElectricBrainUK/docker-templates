@@ -29,7 +29,7 @@ For more details check the github: https://github.com/ElectricBrainUK/IdleMiner
 </Networking>
 <Environment>
 <Variable>
-<Name>APIKey</Name>
+<Name>REACT_APP_APIKEY</Name>
 <Value>REPLACEME!!!!1!</Value>
 <Mode/>
 </Variable>
