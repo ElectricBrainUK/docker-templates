@@ -28,6 +28,11 @@ For more details check the github: https://github.com/ElectricBrainUK/IdleMiner
 </Publish>
 </Networking>
 <Environment>
+<Variable>
+<Name>APIKey</Name>
+<Value>REPLACEME!!!!1!</Value>
+<Mode/>
+</Variable>
 </Environment>
 <Data>
 <Volume>
