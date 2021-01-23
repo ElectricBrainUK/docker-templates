@@ -4,7 +4,7 @@
 <Beta>True</Beta>
 <Changes>
 Added a drive mapping for persistent storage.
-If you downloaded before the mapping and would like it: add a mapping from container path /app/config to a host directory of your choice, for example /mnt/user/appdata/IdleMinerDashboard as well as container port 12345
+If you downloaded before the mapping and would like it: add a mapping from container path /app/config to a host directory of your choice, for example /mnt/user/appdata/IdleMinerDashboard
 </Changes>
 <Category>HomeAutomation: Tools:</Category>
 <Support>https://forums.unraid.net/topic/101713-support-electric-brain-idle-miner-dashboard/</Support>
@@ -23,11 +23,6 @@ For more details check the github: https://github.com/ElectricBrainUK/IdleMiner
 <Port>
 <HostPort>4650</HostPort>
 <ContainerPort>3000</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port>
-<Port>
-<HostPort>12345</HostPort>
-<ContainerPort>12345</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
