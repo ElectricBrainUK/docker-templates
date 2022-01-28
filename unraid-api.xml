@@ -74,7 +74,7 @@ Icon made by https://www.flaticon.com/authors/freepik Freepik
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:3005]</WebUI>
+<WebUI>http://[IP]:[PORT:80]</WebUI>
 <Banner></Banner>
 <Icon>https://raw.githubusercontent.com/ElectricBrainUK/UnraidAPI/master/static/icon.png</Icon>
 <DonateText>We develop all of our apps in our spare time so if you feel like supporting us please donate</DonateText>
